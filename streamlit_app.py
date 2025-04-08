@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load model and scaler
-model = load_model('ann_emissions_model.h5')
+model = load_model("ann_emissions_model.keras")
 scaler = joblib.load('scaler.pkl')
 
 # Streamlit app title
